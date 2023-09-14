@@ -26,9 +26,18 @@ function App() {
     },
   ];
 
+  const handleNewData =(expenseData)=>{
+    const newData = {
+     ...expenseData,
+     id: Math.random()
+    }
+
+    console.log(newData);
+  }
+
   return (
     <>
-      <NewExpense />
+      <NewExpense onSaveNewData={handleNewData}/>
       <Expenses expenses={expenses} />
     </>
   );
