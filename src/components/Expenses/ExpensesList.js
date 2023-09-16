@@ -6,7 +6,7 @@ const ExpensesList = (props) => {
     return (
         <>
             {props.items.length === 0 && <h2 className='expenses-list__fallback'>No Items Found.</h2>}
-            <ul>{props.items.length > 0 && props.items.map((expense) => (<ExpenseItem key={expense.id} expenses={expense} />))}</ul>
+            <ul className='unList'>{props.items.length > 0 && props.items.map((expense) => (<ExpenseItem key={expense.id} expenses={expense} />))}</ul>
         </>
     )
 }

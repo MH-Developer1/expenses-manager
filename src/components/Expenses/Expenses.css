@@ -9,3 +9,7 @@
   .conPara {
     color: #ffffff;
   }
+
+  ul li {
+    list-style: none;
+  }
