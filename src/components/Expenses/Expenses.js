@@ -15,21 +15,11 @@ const Expenses = (props) => {
         <>
             <Card className="expenses">
                 <ExpensesFilter selected={chosenYear} yearValue={getYearValue}/>
-
-                <ExpenseItem
-                    expenses={props.expenses[0]}
-                />
-                <ExpenseItem
-                    expenses={props.expenses[1]}
-                />
-                <ExpenseItem
-                    expenses={props.expenses[2]}
-                />
-                <ExpenseItem
-                    expenses={props.expenses[3]}
-                />
+                 {props.expenses.map((expense)=>(<ExpenseItem key={expense.id} expenses={expense}/>))}
             </Card>
         </>
+
+        
     )
 }
 
