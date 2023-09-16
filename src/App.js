@@ -28,6 +28,42 @@ const DUMMY_EXPENSES = [
     amount: 450,
     date: new Date(2021, 5, 12),
   },
+  {
+    id: 'e5',
+    title: 'Poetry Book',
+    amount: 45,
+    date: new Date(2020, 7, 12),
+  },
+  {
+    id: 'e6',
+    title: 'Laptop Table',
+    amount: 10,
+    date: new Date(2020, 8, 12),
+  },
+  {
+    id: 'e7',
+    title: 'Air Buds',
+    amount: 5,
+    date: new Date(2020, 8, 12),
+  },
+  {
+    id: 'e8',
+    title: 'Motivational Book',
+    amount: 40,
+    date: new Date(2019, 8, 12),
+  },
+  {
+    id: 'e9',
+    title: 'Keyboard',
+    amount: 46,
+    date: new Date(2022, 8, 12),
+  },
+  {
+    id: 'e10',
+    title: 'New Plot',
+    amount: 4000,
+    date: new Date(2022, 8, 12),
+  },
 ];
 
 
